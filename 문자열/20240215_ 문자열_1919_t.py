@@ -1,4 +1,5 @@
 import sys
+sys.stdin = open('input_1919.txt')
 readl = sys.stdin.readline
 
 line0 = readl().rstrip()  # input()
@@ -10,6 +11,7 @@ line1 = readl().rstrip()  # input()
 
 cnt_0 = [0] * 26  #[1, 1, ...]
 cnt_1 = [0] * 26
+
 for ch in line0:
     cnt_0[ord(ch)-ord('a')] += 1
     # cnt_0[1]  += 1
@@ -19,5 +21,5 @@ for ch in line1:
 sum = 0
 for i in range(26):
     sum += abs(cnt_0[i] - cnt_1[i])
-
+           #abs 는 절대값
 print(sum)

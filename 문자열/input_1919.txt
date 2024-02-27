@@ -1,2 +1,2 @@
-aaab
-abbb
+aabbcc
+xxyybb

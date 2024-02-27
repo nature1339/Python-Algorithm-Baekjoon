@@ -11,8 +11,9 @@ readls = sys.stdin.readlines()
 # 수가 같으면 "한다"이고, 다르면 "안한다
 
 for readl in readls[1:]: #한줄씩 비교
-    readl = readline().rscript()
-    if len(readl)//2 == len(readl)//2+1:
+    readl = readl.rstrip()
+    length=len(readl)
+    if readl[length//2-1] == readl[length//2]:
         print('Do-it')
     
     
