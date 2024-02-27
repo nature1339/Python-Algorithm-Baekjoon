@@ -10,7 +10,7 @@ readl = sys.stdin.readline
 n = int(readl())
 out = list(readl().rstrip)  # config.sys 처음거가 기준이고, 두번째거를 비교하고, 세번째도 비교 [c, o, n, ...] 
             #[c, o, n, ...]
-# 3
+
 # config.sys
 # config.inf
 # configures
