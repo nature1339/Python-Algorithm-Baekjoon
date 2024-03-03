@@ -1,0 +1,15 @@
+import sys
+sys.stdin = open('input_11098.txt')
+readl = sys.stdin.readline
+
+n = int(readl())
+# 2
+# 3
+# 10 Iversen
+# 1000000 Nannskog
+# 2000000 Ronaldinho
+# 2
+# 1000000 Maradona
+# 999999 Batistuta
+
+for i in range
