@@ -12,9 +12,10 @@ while True:
         break
     d = [False] * 26
     for ch in line: #[j,a,c,
-        d[ord(ch) - ord('a')] = True
+        d[ord(ch) - ord('a')] = True  #65-65
+        #d에 있으면 True
     
-    if all(d):
+    if all(d): #all은 d가 모두 true인지 검사
         print('Y')
     else:
         print('N')        
