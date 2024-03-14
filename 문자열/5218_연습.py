@@ -10,22 +10,21 @@ readl = sys.stdin.readline
 # DEADLY ULTIMO
 n = int(readl())
 
-d = [] #2,4,3,2
+# d = [] #2,4,3,2
 
 
 
 for i in range(n):  # AAAA 
  
-    d = []
+    d = [] #1,2,3,4
     before, after = readl().split() # AAAA ABCD
      
     for j in range(len(before)): #A,A,A,A,
         x = ord(before[j])
         y = ord(after[j]) 
         if y >= x:
-            d= y-x
+            d.append(y-x)
         else:
-            d=(y+26)-x            
+            d.append((y+26)-x)            
         
-    print(f'Distance: {d}' ,end='')
-print(end='')
+    print(f'Distance: {d}' ,end='')# {d[i]}+{d[i+1]}')    

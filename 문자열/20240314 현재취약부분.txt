@@ -1,0 +1,16 @@
+15829
+2902
+1110
+1157
+1356
+1357
+
+
+자료형 숫자, 문자, 리스트
+
+반복문 - for, while
+break, continue
+
+for - range(start=0, stop, step=1)
+
+

@@ -7,9 +7,9 @@ b = int(b)
 
 decimal = 0
 for ch in n: #ZZZZZ  99999 16
-    decimal *= b 
+    decimal *= b  #한칸 왼쪽으로 간다.
     if ord('0') <= ord(ch) <= ord('9'):  # ch.isdigit() == True: 숫자일때
-        decimal += int(ch) # 
+        decimal += int(ch) #  오른쪽 새로들어온걸 +한다.
     else:  # 알파벳일 때
         decimal += 10 + ord(ch)-ord('A')
 print(decimal)
