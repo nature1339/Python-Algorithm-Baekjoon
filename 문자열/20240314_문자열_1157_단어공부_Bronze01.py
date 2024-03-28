@@ -14,6 +14,9 @@ for i in range(26):
     if u[i] > max_cnt: #3 > 0
         max_cnt = u[i] # max_cnt = 3
         ans = chr(ord('A') + i) #= Z
+    elif u[i] == max_cnt:
+        ans = '?'
+print(ans)
 # print(max(u))  chr(u[1]) chr(3)
     
     

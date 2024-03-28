@@ -2,9 +2,7 @@ import sys
 sys.stdin = open('input_2386.txt')
 line = sys.stdin.readline().rstrip
 
-# g 2
-# n 2
-# x 0
+
 # g Programming Contest
 # n New Zealand
 # x This is quite a simple problem.
