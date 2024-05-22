@@ -1,0 +1,11 @@
+BANANA 2
+s = ['strawberry', 'banana', 'lime', 'plum']
+fruit_num = 2
+if banana == s:
+  count +=  fruit_num 
+  count = 2
+  
+PLUM 4
+if plum == s:
+  count += 4
+  count = 4+2 = 6  

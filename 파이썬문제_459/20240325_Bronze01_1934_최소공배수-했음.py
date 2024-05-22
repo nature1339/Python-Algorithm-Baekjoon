@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input_1934.txt')
+sys.stdin = open('input_2609.txt')
 readl = sys.stdin.readline
 
 n = int(input())
@@ -11,9 +11,9 @@ def gcd(a, b):
 
 for _ in range(n):
     A, B = map(int, readl().split())
-    G = gcd(A, B)
+    G = gcd(A, B) #최대 공약수
     a = A // G
     b = B // G
-    L = G * a * b
+    L = G * a * b #최소 공배수 
     print(L)
     

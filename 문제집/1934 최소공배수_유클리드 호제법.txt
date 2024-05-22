@@ -1,0 +1,6 @@
+12 <- gcd(1980, 168) return 12
+  gcd(168, 132)
+    gcd(132, 36)
+      gcd(36, 24)
+        gcd(24, 12) return = 12
+          gcd(12, 0) return a = 12
