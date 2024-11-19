@@ -1,0 +1,28 @@
+제1공개키 A B C D
+제2공개키 D A B C
+
+평문
+암호        C B A P
+
+암호문(암호화 된 문장)// 평문을//(제1공개키로) 제 2 공개키를 만든 규칙의 
+
+평문을 구하라
+
+제2공개키 D A B C
+제1공개키 A B C D
+
+
+암호문 C B A P
+평문   B A P C 
+
+index[1] -> index[0]
+index[i] -> index[i-1]
+
+
+
+
+제1공개키 SECURITY THROUGH OBSCURITY
+제2공개키 OBSCURITY THROUGH SECURITY
+
+평문    WE ATTACK TOMORROW 
+암호문 TOMORROW ATTACK WE
