@@ -1,5 +1,0 @@
-4
-cat
-dog
-god
-tca

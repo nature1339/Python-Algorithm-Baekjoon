@@ -1,3 +1,0 @@
-if visited:
-    visited = num
-    
