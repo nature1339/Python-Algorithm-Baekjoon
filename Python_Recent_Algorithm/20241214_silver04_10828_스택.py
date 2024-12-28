@@ -21,16 +21,6 @@ for _ in range(n):
         num = inputs[1]  # push
         s.append(num)  # 1
 
-    elif word == "top":
-        # if len(s) != 0:
-        if s:
-            print(s[-1])
-        else:
-            print(-1)
-
-    elif word == "size":
-        print(len(s))
-
     elif word == "pop":
         # if len(s) != 0:
         if s:
@@ -38,9 +28,19 @@ for _ in range(n):
         else:
             print(-1)
 
+    elif word == "size":
+        print(len(s))
+
     elif word == "empty":
         # if len(s) != 0:
         if s:  # stack 에 뭐가 있으면
             print(0)
         else:
             print(1)
+
+    elif word == "top":
+        # if len(s) != 0:
+        if s:
+            print(s[-1])
+        else:
+            print(-1)
