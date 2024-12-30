@@ -13,7 +13,7 @@ car_out = [readl().rstrip() for i in range(n)]  # a,b,c,d
 
 i, j = 0, 0
 
-while i <= n or j <= n:
+while i < n or j < n:
     if car_in[i] in overpass:
         i += 1
         continue
