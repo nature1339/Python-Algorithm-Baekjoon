@@ -18,7 +18,7 @@ while i < n and j < n:
         i += 1
         continue
 
-    elif car_in[i] == car_out[j]:
+    if car_in[i] == car_out[j]:
         i += 1
         j += 1
 
