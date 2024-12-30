@@ -6,7 +6,7 @@ readl = sys.stdin.readline
 n = int(readl())
 sum = 0
 
-ps = [readl().rstrip() for i in range(n)]
+ps = [readl().rstrip(), for i in range(n)]
 if ps == "<":
     sum += 1
 elif ps == "<":
