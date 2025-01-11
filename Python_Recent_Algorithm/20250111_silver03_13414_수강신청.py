@@ -8,7 +8,7 @@ success, waiting_number = int(readl().split())  # 3 8
 
 waiting_list = set()
 
-for i in range(waiting_number):
+for i in range(success):
     call = readl().rstrip()
     if call in waiting_list:
         continue
