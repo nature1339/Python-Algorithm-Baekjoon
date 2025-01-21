@@ -7,7 +7,9 @@ n, m = map(int, readl().split())  # 5  3
 # 5 4 3 2 1
 # arr = map(int, readl().split()) # error
 arr = list(map(int, readl().split()))  # 5 4 3 2 1
+
 pre = [0]  # 0 5 9 12 14 15
+#              5 4  3  2  1
 for x in arr:
     pre.append(pre[-1] + x)
 # [0]
