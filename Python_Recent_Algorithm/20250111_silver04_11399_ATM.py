@@ -1,6 +1,8 @@
 import sys
 
-input = sys.stdin.readline
+# input = sys.stdin.readline
+sys.stdin = open("input_11399.txt")
+readl = sys.stdin.readline
 
 n = int(input())
 p = list(map(int, input().split()))
