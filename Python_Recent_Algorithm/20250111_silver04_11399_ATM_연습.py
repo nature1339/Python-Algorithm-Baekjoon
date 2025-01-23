@@ -14,10 +14,10 @@ pre = [0]  # 누적합
 [0 3 4]
 [0 3 4 8]
 """
-#  s = 3 1 4 3 2
-for i in s:
-    pre[i] = s[i - 1] + s[i]
-    pre.append(pre[i])  #
+#  s = [3 1 4 3 2] len(s)=5 , 0 1 2 3 4
+for i in range(len(s) - 1):
+    x = s[i] + s[i + 1]  #
+    pre.append(x)  #
 print(pre)
 #     if new[i] > new[i + 1]:
 #         new[i + 1] = new[i]
