@@ -1,11 +1,15 @@
 import sys
-input = sys.stdin.readline
 
-n = input() # 2개
-
-ropes = [for i in range(n)]
+input = sys.readline.stdin
 
 
-10
-n
-print(n*min)
+s = list(map(int,input().split())) #10,15
+
+
+for i in s:
+    if i > i+1:
+        s.pop(i)
+    else:
+        sum+=i
+
+print(sum)
