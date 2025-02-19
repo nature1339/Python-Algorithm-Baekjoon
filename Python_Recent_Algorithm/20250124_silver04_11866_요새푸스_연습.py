@@ -2,6 +2,14 @@ import sys
 
 input = sys.readline.stdin
 
-n, k = map(input().split())  # 7 3
-s = [i for i in range(n)]
-yosep = []
+
+s = list(map(int,input().split())) #10,15
+
+
+for i in s:
+    if i > i+1:
+        s.pop(i)
+    else:
+        sum+=i
+
+print(sum)
