@@ -19,7 +19,7 @@ for i in graph: #입력노드로 받음 그림이 문제에 있음
 
 visted = []
 #v = [0,0,0,0]
-def dfs(1,graph,n+1):
+def dfs(1,graph,n+1): #
     for i in visted:
         if i not in v:
             v[i] = 1
